@@ -1,0 +1,42 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+.login__form {
+  display: flex;
+  flex-direction: column;
+  width: 40vw;
+}
+.login__form > label {
+  margin-top: 5px;
+}
+.login__form > input {
+  border: 1px solid black;
+  border-radius: 10px;
+  width: 40vw;
+  outline: none !important;
+  padding: 5px;
+}
+.login__form > button {
+  margin-top: 10px;
+  color: white;
+  background-color: rgb(91, 91, 212);
+  font-weight: 800;
+  border-radius: 99px;
+  border: none;
+  width: 100px;
+  padding: 5px;
+  outline: none !important;
+  transition: all 200ms ease-in;
+}
+.login__form > button:hover {
+  color: rgb(29, 29, 29);
+  background-color: rgb(69, 196, 69);
+}
+.login__hr {
+  border: 2px solid rgba(113, 132, 218, 0.5);
+  width: 90%;
+  border-radius: 5px;
+}

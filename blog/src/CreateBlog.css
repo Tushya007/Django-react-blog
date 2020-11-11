@@ -1,0 +1,50 @@
+.createBlog{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.createBlog__form{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    margin:auto;
+}
+.createBlog__form > label{
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 16px;
+}
+.createBlog__form > input,textarea{
+    border-radius: 10px;
+    width: 60vw;
+    outline: none !important;
+    border:1px solid black;
+    padding:5px;
+}
+.createBlog__blog__content{
+    height: 20vh;
+}
+.createBlog__form > button{
+    margin-top:10px;
+    color:white;
+    background-color: rgb(91, 91, 212);
+    font-weight: 800;
+    border-radius: 99px;
+    border:none;
+    width:100px;
+    padding:5px;
+    outline: none !important;
+    transition: all 200ms ease-in;
+}
+.createBlog__form > button:hover{
+    color: rgb(29, 29, 29);
+    background-color: rgb(69, 196, 69);
+}
+.createBlog__all{
+    flex:0.7;
+}
+.createBlog__hr{
+    border:2px solid rgba(113, 132, 218, 0.5);
+    width:90%;
+    border-radius: 5px;
+}
